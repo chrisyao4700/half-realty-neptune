@@ -3,6 +3,6 @@
 
 To Start
 
-Commandline
+Command-line
 npm install
 node bin/www
