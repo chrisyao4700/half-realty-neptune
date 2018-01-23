@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5607901-b154-4c1e-8ab7-37f831d9a1d4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/views/childViews/promotion.ejs" afterPath="$PROJECT_DIR$/views/childViews/promotion.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/childViews/email.ejs" afterPath="$PROJECT_DIR$/views/childViews/email.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="email.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="email.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/childViews/email.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="25" column="84" lean-forward="false" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -36,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promotion.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="promotion.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/childViews/promotion.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/components/footer.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -89,13 +99,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agent.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/images/agent.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="property.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/images/property.jpg">
           <provider selected="true" editor-type-id="images">
@@ -129,13 +132,13 @@
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/modules/mails/CYMail.js" />
-        <option value="$PROJECT_DIR$/views/childViews/email.ejs" />
         <option value="$PROJECT_DIR$/views/childViews/thankyouHeader.ejs" />
         <option value="$PROJECT_DIR$/public/js/mainVC.js" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/views/childViews/header.ejs" />
         <option value="$PROJECT_DIR$/views/childViews/promotion.ejs" />
+        <option value="$PROJECT_DIR$/views/childViews/email.ejs" />
       </list>
     </option>
   </component>
@@ -261,12 +264,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516510466325</updated>
       <workItem from="1516510472925" duration="10592000" />
-      <workItem from="1516686290193" duration="494000" />
+      <workItem from="1516686290193" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11086000" />
+    <option name="totallyTimeSpent" value="11214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1440" height="817" extended-state="0" />
@@ -381,13 +384,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/maincover.jpg" />
-    <entry file="file://$PROJECT_DIR$/views/components/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/components/tail.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -438,14 +434,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/property.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/childViews/email.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
@@ -509,6 +497,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/components/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/childViews/email.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="84" lean-forward="false" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
           <folding />
         </state>
       </provider>
